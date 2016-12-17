@@ -54,7 +54,7 @@ extern u4Byte GLBtcDbgType[];
 #define DBG_LOUD		4
 #define DBG_TRACE		5
 
-#if DBG
+//#if DBG
 #ifdef RT_TRACE
 #undef RT_TRACE
 #define RT_TRACE(dbgtype, dbgflag, printstr)\
@@ -65,9 +65,9 @@ do {\
 	}\
 } while (0)
 #endif
-#else
-#define RT_TRACE(dbgtype, dbgflag, printstr)
-#endif
+//#else
+//#define RT_TRACE(dbgtype, dbgflag, printstr)
+//#endif
 
 #include "HalBtcOutSrc.h"
 #include "HalBtc8188c2Ant.h"
