@@ -7,7 +7,7 @@ I use it with 'https://github.com/150balbes/lib.git' to build Armbian for MXQ-Pr
 Armbian doesn't support checking git commits for it's sources. Only branches and tags.
 I built the latest kernel on 105balbes repo but the performance was very poor.
 This is the reason for creating this repo.
-As you can see, I added aml_nftl_dev.ko, wifi.SDIO drivers and OverlaFS support.
+As you can see, I added aml_nftl_dev.ko, wifi.SDIO drivers and OverlayFS support.
 The OverlayFS is using '-t overlayfs' mount option instead of '-t overlay'.  
 
 All credits go to '150balbes'. Thanks and keep up the good work ! 
